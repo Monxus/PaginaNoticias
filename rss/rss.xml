@@ -3,16 +3,16 @@
 
 <channel>
         <title>Natura News</title>
-        <link>https://rawgit.com/Monxus/Noticias/master/news.html</link>
+        <link>https://rawgit.com/Monxus/PaginaNoticias/master/news.html</link>
         <description>Natura News - Tu principal protal de noticias sobre Naturaleza y Medio Ambiente</description>
     <item>
         <title>El 'Arca de Noé' de las plantas en peligro</title>
-        <link>https://rawgit.com/Monxus/Noticias/master/news/arca-noe-plantas-peligro.html</link>
+        <link>https://rawgit.com/Monxus/PaginaNoticias/master/news/arca-noe-plantas-peligro.html</link>
         <description>El almacén de semillas del Ártico para prevenir un desastre global necesita reparaciones tras inundarse parcialmente</description>
     </item>
     <item>
         <title>España necesita un plan contra el cambio climático</title>
-        <link>https://rawgit.com/Monxus/Noticias/master/news/españa-necesita-plan-cambio-climatico.html</link>
+        <link>https://rawgit.com/Monxus/PaginaNoticias/master/news/españa-necesita-plan-cambio-climatico.html</link>
         <description>Rajoy se ha comprometido a elaborar una ley contra el calentamiento y de transición energética.</description>
     </item>
 </channel>
