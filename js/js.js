@@ -35,7 +35,7 @@ $(document).ready(function(){
 
 function cargarNoticias(){
 
-    $.getJSON( "data/"+jsonNoticia+".json", function( jsonObject ) {
+    $.getJSON("data/"+jsonNoticia+".json", function( jsonObject ) {
         crearNoticias( jsonObject );
     });
     jsonNoticia++;
