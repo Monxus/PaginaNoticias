@@ -35,7 +35,6 @@ $(document).ready(function(){
 
 function cargarNoticias(){
 
-    ///CAMBIAR al subirlo a git hub!!!!!!!!!!1
     $.getJSON( "data/"+jsonNoticia+".json", function( jsonObject ) {
         crearNoticias( jsonObject );
     });
