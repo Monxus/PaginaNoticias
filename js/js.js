@@ -36,7 +36,7 @@ $(document).ready(function(){
 function cargarNoticias(){
 
     ///CAMBIAR al subirlo a git hub!!!!!!!!!!1
-    $.getJSON( "https://rawgit.com/Monxus/Noticias/master/data/"+jsonNoticia+".json", function( jsonObject ) {
+    $.getJSON( "data/"+jsonNoticia+".json", function( jsonObject ) {
         crearNoticias( jsonObject );
     });
     jsonNoticia++;
