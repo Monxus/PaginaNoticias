@@ -64,5 +64,5 @@ function compartirFace(){
 function compartirTwit(){
     var linkMal = window.location.href;
     var link = encodeURIComponent(linkMal);
-    window.open("https://twitter.com/home?status="+link);
+    window.open("https://twitter.com/home?status="+$('title').text()+" - "+link);
 }
