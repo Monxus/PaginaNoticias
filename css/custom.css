@@ -1,0 +1,204 @@
+body,html{
+    cursor: default;
+    background-color:palegreen;
+    font-family: 'Allerta', sans-serif;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+/*Colores barra de navegacion superior e inferior*/
+.navbar, .navbar-default .navbar-nav>li>a, #logo-nav, .navbar-default .navbar-nav>.active>a{
+    background-color:seagreen;
+    border-color:seagreen;
+    color:palegreen;
+}
+
+.navbar-fixed-top{
+    border-radius: 4px;
+    border-color:darkgreen;
+}
+
+
+.navbar-brand:hover,.navbar-default .navbar-nav>li>a:hover,.navbar .navbar-nav>.active>a:hover, #logo-nav:hover{
+    color:white;
+    background-color:seagreen;
+}
+
+.navbar .navbar-nav>.active>a{
+    color:lime
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: palegreen;
+}
+
+span.icon-bar{
+    color:palegreen;
+    background-color: palegreen;
+}
+button.navbar-toggle{
+    border-color:palegreen;
+}
+
+#cargarBoton{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#pie{
+    background-color:forestgreen;
+    color:palegreen;
+}
+
+
+/*Estilos jumbotron*/
+.jumbotron{
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    border-radius: 10px;
+}
+
+.jumbotron .container h1, .jumbotron .container p{
+    color:greenyellow;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+/*Colores para las noticias*/
+.well{
+    background-color:forestgreen;
+    border-color:darkgreen;
+}
+
+.well h2{
+    color:lime;
+    font-weight: bold;
+}
+
+.well .text-muted{
+    color:palegreen;
+}
+
+.well div p{
+    color:lawngreen;
+}
+
+.well>a:hover{
+    color:lime;
+}
+
+/*Colores en la pagina de la noticia*/
+.noticia-pag>h1, .noticia-pag>h3{
+    color:darkgreen;
+    font-weight: bold;
+}
+
+.noticia-pag .text-muted{
+    color:forestgreen;
+}
+
+.noticia-pag>p{
+    color:darkgreen;
+    margin-top: 10px}
+
+
+.img-thumbnail{
+    display: block;
+    margin:auto;
+    padding: 2px;
+    background-color: forestgreen;
+    border-color:darkgreen;
+}
+
+.redss{
+    height: 30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#redes{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#linkfuente{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Css desktop*/
+@media screen and (min-width: 769px){
+    #cuerpo, .not-pag{
+    position:relative;
+    margin:auto;
+}
+
+.container{
+    width:92%;
+    max-width: 1200px;
+}
+
+.jumbotron, .not-pag{
+    margin-top: 70px;
+}
+
+#anuncio1{
+    position: absolute;
+    right:0;
+    top:0;
+    width:300px;
+    height: 300px;
+    background-color:black;   
+}
+
+#anuncio2{
+    display:none;
+}
+
+.well, .noticia-pag{
+    width: calc(100% - 300px);
+}
+}
+
+/*Css movil*/
+@media screen and (max-width: 768px){
+    #anuncio2{
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin:0;
+    width:100%;
+    height: 90px;
+    background-color: black;
+    z-index: 1;
+    text-align: center;
+}
+
+#anuncio1{
+    display:none;
+}
+
+.well p{
+    margin-top: 5px;
+}
+
+p{
+   font-size:15px;
+}
+
+.jumbotron{
+    margin-top: 65px;
+}
+
+#pie{
+    margin-bottom: 105px;
+}
+
+div.not-pag{
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+}
