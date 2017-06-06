@@ -12,6 +12,8 @@ Para la versión de escritorio he decidido poner un menú superior (que sería f
 ### Movil
 ![Movil](https://github.com/Monxus/PaginaNoticias/blob/master/img/pre2.jpg "Movil")
 Para la versión de movil mantengo el menú superior fijo y en la portada las noticias tendrían una distribución diferente a la de la versión de escritorio para que la imagen no quedase demasiado pequeña. En cuanto a la página que contiene la noticia, sigue la misma estructura que la versión de escritorio. Los anuncios en el móvil estarán fijos en la parte de abajo.
+### Cambios realizados
+El principal cambio que me he visto obligado a realizar ha sido elimnar el encabezado de la página que contiene toda la información de la noticia, ya que no quedaba demasiado bien. También he añadido un pie de página (que no se ve en ninguno de los bocetos) y los iconos de facebook y twitter en la página que contiene la noticia, ya que no los tuve en cuenta.
 
 ## Tareas a realizar
 
