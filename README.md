@@ -1,8 +1,6 @@
 # PaginaNoticias
 Ramón Moreno
 
-### Hola. Por favor, si vas a utilizar mi codigo recuerda ponerme como fuente. Gracias. ;)
-
 ## Repositorio RawGit
 Aquí puedes visualizar el resultado final del proyecto: https://rawgit.com/Monxus/PaginaNoticias/master/news.html
 
